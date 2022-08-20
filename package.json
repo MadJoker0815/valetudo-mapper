@@ -3,9 +3,9 @@
   "version": "0.5.0",
   "dependencies": {
     "jimp": "^0.16.1",
-    "mqtt": "^4.2.6",
+    "mqtt": "^4.3.7",
     "compression": "^1.7.2",
-    "express": "^4.17.1"
+    "express": "^4.18.1"
   },
   "scripts": {
     "start": "node app.js"
