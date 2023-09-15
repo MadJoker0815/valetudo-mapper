@@ -18,6 +18,7 @@ if(conf.get("mqtt")) {
         brokerURL: conf.get("mqtt").broker_url,
         caPath: conf.get("mqtt").caPath,
         identifier: conf.get("mqtt").identifier,
+        deviceName: conf.get("mqtt").deviceName,
         topicPrefix: conf.get("mqtt").topicPrefix,
         autoconfPrefix: conf.get("mqtt").autoconfPrefix,
         mapSettings: conf.get("mapSettings"),
